@@ -8,6 +8,13 @@ html, body {
 	background-attachment: fixed;
 }
 
+.navbar {
+	 position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 1;
+}
 
 .navbar-brand {
 	font-family: 'Black Han Sans', sans-serif;
@@ -37,7 +44,7 @@ p {
 	justify-content: center;
 	align-items: center;
 	text-align: center;
-	padding-top: 200px;
+	padding-top: 275px;
 	padding-bottom: 200px;
 	color: white;
 	font-weight: bold;
@@ -128,4 +135,3 @@ hr {
     transform: translate(0, 10px);
   }
 }
-
