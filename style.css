@@ -81,23 +81,6 @@ hr {
 	background-color: dimgray; height: 2px; border: 0; 
 }
 
-#section3 {
-    height: 90vh; 
-    margin-top: 100px;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    background-color: rgba(0,0,0,0.5);
-    color: white;
-    text-decoration: underline;
-	font-weight: bold;
-}
-
-#section3 > h2{
-	padding-top: 20px;
-	padding-bottom: 20px;
-}
-
 #section4 {
 	color: white;
 	display: flex;
@@ -157,7 +140,16 @@ hr {
 }
 
 @media only screen and (max-width: 600px) {
-    body {
-        font-size: 1.1em;
+    #section1 {
+        height:100vh;
+    }
+     #section2 {
+        height:100vh;
+    }
+     #section3 {
+        height:100vh;
+    }
+     #section4 {
+        height:100vh;
     }
 }
