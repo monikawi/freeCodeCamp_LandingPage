@@ -23,8 +23,7 @@ html, body {
 
 .fa-facebook-square, .fa-twitter-square, .fa-instagram { 
 color: white; 
-margin-left: 10px;
-margin-right: 10px;
+margin-left: auto;
 }
 
 
@@ -44,8 +43,7 @@ p {
 	justify-content: center;
 	align-items: center;
 	text-align: center;
-	padding-top: 275px;
-	padding-bottom: 200px;
+	height:100vh;
 	color: white;
 	font-weight: bold;
 }
@@ -55,15 +53,20 @@ p {
 	font-size: 300%;
 }
 
+img {
+	color: white;
+}
+
 .fa-arrow-circle-down {
 	animation: slide2 1s ease-in-out infinite;
 }
 
 .jumbotron {
 	padding-top: 5px;
-	padding-bottom: 10px;
+	padding-bottom: 5px;
 	color: white;
     background-color: rgba(0,0,0, 0.5); 
+
 }
 
 .carousel {
@@ -79,33 +82,50 @@ hr {
 }
 
 #section3 {
+    height: 90vh; 
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    text-decoration: underline;
+	font-weight: bold;
+}
+
+#section3 > h2{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#section4 {
 	color: white;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
-	padding-bottom: 100px;
-	padding-top: 100px;
+	padding-bottom: 150px;
+	padding-top: 150px;
 }
 
 
-.btn {
+#submit {
 	background-color: #263238;
 	color: white;
 	width: 120px;
 	border-radius: 5px;
 	border: 1px solid white;
 	transition: 1s;
-	text-align: left;
 	font-size: 1.2em;
+	padding:5px;
 }
 
-.btn:hover {
+#submit:hover {
 	transform: scale(1.1, 1.1);
 }
 
-.fa-arrow-right {
+/*.fa-arrow-right {
 	transition: 1s;
 	margin-left: 10px;
 }
@@ -124,7 +144,7 @@ hr {
     transform: translate(10px, 0);
   }
 }
-
+*/
 @keyframes slide2 {
   0%,
   100% {
@@ -134,4 +154,10 @@ hr {
   50% {
     transform: translate(0, 10px);
   }
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 1.1em;
+    }
 }
