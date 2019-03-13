@@ -153,3 +153,9 @@ hr {
         height:100vh;
     }
 }
+
+
+iframe {
+	display: block;
+	margin: 0 auto;
+}
